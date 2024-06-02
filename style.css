@@ -1,0 +1,34 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table, tr, td {
+    border: 1px solid white;
+
+    padding-left: 1vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: center;
+}
+
+thead {
+    font-weight: bolder;
+}
+
+table {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.small_text {
+    font-size: 70%; 
+    color: rgb(120, 120, 120);
+}
