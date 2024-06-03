@@ -4,7 +4,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-table, tr, td {
+table, td {
     border: 1px solid white;
 
     padding-left: 1vw;
@@ -31,4 +31,17 @@ table {
 .small_text {
     font-size: 70%; 
     color: rgb(120, 120, 120);
+}
+
+.ghost_entry {
+    display: flex;
+    align-items: center;
+}
+.ghost_entry p {
+    flex: 1;
+    margin: 0;
+}
+.ghost_entry img {
+    flex: 1;
+    max-width: 50%;
 }

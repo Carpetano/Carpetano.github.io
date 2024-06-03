@@ -54,7 +54,9 @@
         <tbody>
             <tr>
 
-                <td>Spirit</td>
+                <td>
+                    <p>Spirit</p>
+                </td>
                 <td>
                     <ul>
                         <li>Smudging stops hunting for 180s | 3min</li>
@@ -165,36 +167,92 @@
             <tr>
 
                 <td>Jinn</td>
-                <td>WIP</td>
-                <td>WIP</td>
-                <td>WIP</td>
+                <td>
+                    <ul>
+                        <li>Cannot turn off breaker <span class="small_text">(Keep an eye if someone overloaded the fuse box)</span></li>
+                        <li>Turning the fuse box off will prevent ALL unique abilities from happening</li>
+                        <li>Has the ability to lower sanity by 25% to all of the players in the same room or wihin 3</li>
+                        <ul>
+                            <li>This will leave an EMF reading of 2 / 5 at the fuse box</li>
+                        </ul>
+                        <li>When hunting, if Jinn has LOS of a player and is further than 3m, it will have a fixed speed of 2.5 m/s with no build up <span class="small_text">(Basically it will speed up instantly rather than progressively)</span></li>
+                        <ul>
+                            <li>During this period speed will build in the background and when it's closer than 3m it will stop using the fixed 2.5 m/s and have whatever speed it built up</li>
+                        </ul>
+                    </ul>
+                    
+                </td>
+                <td>1.7 m/s | 2.5 m/s (conditions met)</td>
+                <td>50%</td>
                 
             </tr>
 
             <tr>
 
                 <td>Mare</td>
-                <td>WIP</td>
-                <td>WIP</td>
-                <td>WIP</td>
+                <td>
+                    <ul>
+                        <li>Turning lights on will make ghost more likely to change ghost room</li>
+                        <li>Can flick off the light as soon as a player lights it on</li>
+                        <li>Has a preference for light exploding ghost events</li>
+                        <li><strong>WILL NEVER</strong> turn on a light <span class="small_text">(keyboards and TV remotes cannot be used for this anymore)</span></li>
+                    </ul>
+                </td>
+                <td>1.7 m/s</td>
+                <td>
+                    60% Lights off
+                    <br>
+                    40% Lights on
+                </td>
+                
                 
             </tr>
 
             <tr>
 
                 <td>Revenant</td>
-                <td>WIP</td>
-                <td>WIP</td>
-                <td>WIP</td>
+                <td>
+                    <ul>
+                        <li>Has no special traits besides ghost speed when hunting</li>
+                        <ul>
+                            <li>It will walk at a fixed speed of 1 m/s unless it detects a player in any way, LOS / speech / electronics</li>
+                            <ul>
+                                <li>If it detects a player, it will walk in a fixed 3 m/s speed towards the location of the player</li>
+                            </ul>
+                            <li>Doesn't speed up in LOS, can only walk at either 3 m/s or 1 m/s</li>
+                        </ul>
+                        
+                    </ul>
+                </td>
+                <td>
+                    1 m/s (No player detected)
+                    <br>
+                    3 m/s (Player detected)
+                </td>
+                <td>50%</td>
                 
             </tr>
 
             <tr>
 
                 <td>Shade</td>
-                <td>WIP</td>
-                <td>WIP</td>
-                <td>WIP</td>
+                <td>
+                    <ul>
+                        <li>Ghost events chances of ocurring are based on sanity</li>
+                        <ul>
+                            <li>At 100% sanity, it has 0% of doing a ghost event</li>
+                            <ul>
+                                <li>This chance increases by 2% for every 1% of average team sanity lost, so at 50% avg sanity it will do ghost events like a regular ghost</li>
+                            </ul>
+                        </ul>
+                        <li>If there is at least 1 player in the same room as the ghost, it wont be able to interact (Ghost Writing and blowing candles are exceptions)</li>
+                        <ul>
+                            <li>This includes ghost events or hunts, <strong>HOWEVER</strong> it can hunt/interact if it happens to wander to a nearby room with no players in it, since interactions occur in a range</li>
+                        </ul>
+                    </ul>
+                </td>
+                <td>1.7 m/s</td>
+                <td>35%</td>
                 
             </tr>
 
@@ -202,7 +260,7 @@
 
                 <td>Demon</td>
                 <td>WIP</td>
-                <td>WIP</td>
+                <td>1.7 m/s</td>
                 <td>WIP</td>
                 
             </tr>
